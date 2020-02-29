@@ -1,3 +1,6 @@
+Ya se lo mostre en clase funcional :)
+segun yo no creo que me haya equivocado al pasarlo a github
+
 # Hello MVC
 
 Proyecto básico que muestra como se implementa el patrón de diseño: MVC en Node.js. 
