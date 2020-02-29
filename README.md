@@ -1,5 +1,5 @@
 Ya se lo mostre en clase funcional :)
-segun yo no creo que me haya equivocado al pasarlo a github
+segun yo no creo que me haya equivocado al pasarlo a github, soy el de la pagina en html raw 
 
 # Hello MVC
 
