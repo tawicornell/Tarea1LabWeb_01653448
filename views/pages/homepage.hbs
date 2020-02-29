@@ -1,0 +1,27 @@
+<h1>Hello MVC</h1>
+<p>This is my first page Axel Meinguer A01653448</p>
+<h2>Our products</h2>
+
+  <button onclick="window.location.href = '/create'">CREATE</button>
+<button onclick="window.location.href = '/read'">SEE ALL json</button>
+
+<ul>
+    {{#each products}}
+    <li>
+        Nombre: {{name}} ($ {{price}})
+<form action="/read/{{id}}" method="post" >
+        <input  type ="submit" value="READ">
+    	</form>
+    	<form action="/delete/{{id}}" method="post">
+        <input type ="submit" value="DELETE">
+    	</form>
+    	<form action="/update/{{id}}" method="post">
+        <input type ="submit" value="UPDATE">
+    	</form>
+
+    </li>
+    {{/each}}
+
+</ul>
+
+
